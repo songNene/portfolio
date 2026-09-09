@@ -63,7 +63,7 @@ Python · Pandas · NumPy · Scikit-learn · XGBoost · Matplotlib · Seaborn
 
 ## 결과
 
-본 프로젝트에서는 다수의 범주형 변수로 구성된 RoadSense 데이터의 특성을 고려해 트리 기반 모델인 RandomForest와 XGBoost를 실험 모델로 선정했다.     
+다수의 범주형 변수로 구성된 RoadSense 데이터의 특성을 고려해 트리 기반 모델인 RandomForest와 XGBoost를 실험 모델로 선정했다.     
 범주형 변수는 원-핫 인코딩을 거쳐 194개의 피처로 확장되었으며 트리 기반 모델은 이러한 희소하고     
 이진화된 피처 구조에서도 별도의 스케일링 없이 안정적으로 분기 기준을 학습할 수 있다는 점에서 적합하다고 판단했다.    
     
